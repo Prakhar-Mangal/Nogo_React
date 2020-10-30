@@ -3,7 +3,7 @@
     "start": "parcel ./index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:main": "parcel build src/index.js --no-minify --no-content-hash --no-cache --no-source-maps --out-dir dist",
-    "prod": "npm-run-all build:* copy:*"
+    "prod": "npm-run-all build:*"
   },
   "name": "NOGO",
   "version": "1.0.0",
